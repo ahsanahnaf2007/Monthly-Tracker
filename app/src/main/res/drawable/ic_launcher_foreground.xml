@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Top Left Wallet Fold -->
+    <path
+        android:pathData="M 34,44 L 34,41 C 34,39 36,37.5 38.5,37.5 L 46,37.5"
+        android:strokeWidth="3.6"
+        android:strokeColor="#381E72"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Rising Financial Growth Line Chart -->
+    <path
+        android:pathData="M 46,37.5 L 53,30 L 61,36 L 71,26"
+        android:strokeWidth="3.6"
+        android:strokeColor="#381E72"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Growth Peak Circular Indicator Dot -->
+    <path
+        android:pathData="M 75.5,22 A 2.6,2.6 0 1,1 75.49,22 Z"
+        android:fillColor="#381E72" />
+
+    <!-- Wallet Outer Main Body (Top, Right, Bottom-Right) -->
+    <path
+        android:pathData="M 34,44 L 69,44 C 72.5,44 75,46.5 75,50 L 75,69 C 75,72.5 72.5,75 69,75 L 53,75"
+        android:strokeWidth="3.6"
+        android:strokeColor="#381E72"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Continuous Wallet Left Edge curving into Inner "P" Monogram -->
+    <path
+        android:pathData="M 34,44 L 34,69 C 34,72.5 36.5,75 40,75 L 43,75 C 45.5,75 46.5,73 46.5,70.5 L 46.5,53 C 46.5,53 46.5,51.5 48.5,51.5 L 56.5,51.5 C 60.5,51.5 63.5,54.5 63.5,58.5 C 63.5,62.5 60.5,65.5 56.5,65.5 L 46.5,65.5"
+        android:strokeWidth="3.6"
+        android:strokeColor="#381E72"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>
