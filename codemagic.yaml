@@ -5,12 +5,13 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       java: 17
+      android_sdk: 34
     scripts:
       - name: Generate wrapper and build APK
         script: |
-          gradle wrapper
+          gradle wrapper --gradle-version 8.6
           chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon
+          ./gradlew assembleDebug --no-daemon -Dorg.gradle.jvmargs="--add-opens=java.base/java.lang=ALL-UNNAMED"
     artifacts:
       - app/build/outputs/apk/debug/*.apk
     publishing:
